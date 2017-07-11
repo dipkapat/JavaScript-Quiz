@@ -10,29 +10,34 @@
 <body>
     <div class="container">
         <h1>Welcome to JavaScript Quiz</h1>
-        <div class="row">
+        <div id="quizContent" class="row quiz">
             <div class="col-sm-12">
-                <h3>Question</h3>
-                <p>Question .....</p>
+                <h2 id="quizQuestion"></h2>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-6">
-                <p>Answer .....</p>
+            <!-- <div class="row">
+                <div class="col-sm-12">
+                    <h3>Question</h3>
+                    <p>Question .....</p>
+                </div>
+            </div> -->
+            <div id="quizAnswers" class="row">
+                <div class="col-sm-6">
+                    <a data-id="1" class="btn btn-default answer">1</a>
+                </div>
+                <div class="col-sm-6">
+                    <a data-id="2" class="btn btn-default answer">2</a>
+                </div>
+                <div class="col-sm-6">
+                    <a data-id="3" class="btn btn-default answer">3</a>
+                </div>
+                <div class="col-sm-6">
+                    <a data-id="4" class="btn btn-default answer">4</a>
+                </div>
             </div>
-            <div class="col-sm-6">
-                <p>Answer .....</p>
+            <div class="row pageMovement">
+                <div id="btnPrevious" class="col-xs-5 col-sm-4 btn btn-primary">Previous</div>
+                <div id="btnNext" class="col-xs-5 col-sm-4 col-sm-offset-4 col-xs-offset-2 btn btn-primary">Next</div>
             </div>
-            <div class="col-sm-6">
-                <p>Answer .....</p>
-            </div>
-            <div class="col-sm-6">
-                <p>Answer .....</p>
-            </div>
-        </div>
-        <div class="row pageMovement">
-        	<div class="col-xs-5 col-sm-4 btn btn-primary">Previous</div>
-        	<div class="col-xs-5 col-sm-4 col-sm-offset-4 col-xs-offset-2 btn btn-primary">Next</div>
         </div>
     </div>
 </body>
