@@ -113,6 +113,10 @@
 	],
 	"file_history":
 	[
+		"/home/dipk/Public/Git/JavaScript-Quiz-Project/jsQuiz.todo",
+		"/home/dipk/.config/sublime-text-3/Packages/PlainTasks/messages/Tutorial.todo",
+		"/home/dipk/.config/sublime-text-3/Packages/User/PlainTasks.sublime-settings",
+		"/home/dipk/.config/sublime-text-3/Packages/User/Git.sublime-settings",
 		"/home/dipk/Videos/Udemy Quiz Project/Source-Code/index4.html",
 		"/home/dipk/Videos/Udemy Quiz Project/Source-Code/index3.html",
 		"/home/dipk/Videos/Udemy Quiz Project/Source-Code/index2.html",
@@ -161,7 +165,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -273,6 +277,7 @@
 								"bh_single_quote_content"
 							],
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"git_gutter_is_enabled": true,
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
@@ -281,7 +286,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -391,6 +396,7 @@
 								"bh_single_quote_content"
 							],
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"git_gutter_is_enabled": true,
 							"syntax": "Packages/CSS/CSS.sublime-syntax"
 						},
 						"translation.x": 0.0,
@@ -501,7 +507,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -509,7 +515,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 34.0
 	},
 	"input":
 	{
