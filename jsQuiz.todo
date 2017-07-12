@@ -1,15 +1,16 @@
  ✔ To do basic HTML design layout. @done (17-07-10 22:41)
- ☐ To do add dynamic questions from an array.
- ☐  To do add eventListeners.
- ☐  To do add eventListeners by className.
- ☐  To do add and remove classes after getting element.
- ☐  To do traversing the DOM and returning values and using those values within the DOM.
- ☐  To do add bootstrap progress bar and make it dynamic.
- ☐  To do add and remove classes within the bootstrap to accommodate the buttons.
- ☐  To do check correct anwsers using attribute value.
- ☐  To do storing the values in an array.
- ☐  To do if the question is answered.
- ☐  To do substr string capitalization.
- ☐  To do end quiz hide/show buttons and add submit button to end the quiz.
- ☐  To do add class to highlight selected answer.
- ☐  To do quiz tally and display result.
+ ✔ To do add dynamic questions from an array. @done (17-07-12 16:00)
+ ☐ To do add eventListeners.
+ ☐ To do add eventListeners by className.
+ ☐ To do add and remove classes after getting element.
+ ☐ To do traversing the DOM and returning values and using those values within the DOM.
+ ☐ To do add bootstrap progress bar and make it dynamic.
+ ☐ To do add and remove classes within the bootstrap to accommodate the buttons.
+ ☐ To do check correct anwsers using attribute value.
+ ☐ To do storing the values in an array.
+ ☐ To do if the question is answered.
+ ☐ To do substr string capitalization.
+ ☐ To do end quiz hide/show buttons and add submit button to end the quiz.
+ ☐ To do add class to highlight selected answer.
+ ☐ To do quiz tally and display result.
+ 
