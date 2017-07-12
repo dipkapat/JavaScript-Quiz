@@ -10,9 +10,11 @@
 <body>
     <div class="container">
         <h1>Welcome to JavaScript Quiz</h1>
-        <div id="quizContent" class="row quiz">
-            <div class="col-sm-12">
-                <h2 id="quizQuestion"></h2>
+        <div id="quizContent" class="quiz">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h3 id="quizQuestion"></h3>
+                </div>
             </div>
             <!-- <div class="row">
                 <div class="col-sm-12">
@@ -20,7 +22,7 @@
                     <p>Question .....</p>
                 </div>
             </div> -->
-            <div id="quizAnswers" class="row">
+            <div id="quizAnswers">
                 <div class="col-sm-6">
                     <a data-id="1" class="btn btn-default answer">1</a>
                 </div>
@@ -34,6 +36,7 @@
                     <a data-id="4" class="btn btn-default answer">4</a>
                 </div>
             </div>
+            <div class="clearfix"></div>
             <div class="row pageMovement">
                 <div id="btnPrevious" class="col-xs-5 col-sm-4 btn btn-primary">Previous</div>
                 <div id="btnNext" class="col-xs-5 col-sm-4 col-sm-offset-4 col-xs-offset-2 btn btn-primary">Next</div>

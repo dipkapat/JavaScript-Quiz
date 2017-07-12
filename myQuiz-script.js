@@ -1,9 +1,9 @@
 
 var currentPg = 0;
 var quizQA = [
-    ["Which of the following is true about variable naming conventions in JavaScript?", "JavaScript variable names must begin with a letter or the underscore character.", "JavaScript variable names are case sensitive.", "Both of the above.", "None of the above.", 3],
-    ["Which of the following is a valid type of function javascript supports?", "named function", "anonymous function", "Both of the above.", "None of the above.", 3],
-    ["Which built-in method returns the character at the specified index?", "characterAt()", "charAt()", "getCharAt()", "None of the above.", 2]
+    ["Q1. Which of the following is true about variable naming conventions in JavaScript?", "JavaScript variable names must begin with a letter or the underscore character.", "JavaScript variable names are case sensitive.", "Both of the above.", "None of the above.", 3],
+    ["Q2. Which of the following is a valid type of function javascript supports?", "named function", "anonymous function", "Both of the above.", "None of the above.", 3],
+    ["Q3. Which built-in method returns the character at the specified index?", "characterAt()", "charAt()", "getCharAt()", "None of the above.", 2]
 ];
 
 var quizQues = document.getElementById("quizQuestion");
