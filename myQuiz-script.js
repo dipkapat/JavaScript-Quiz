@@ -1,4 +1,3 @@
-
 var currentPg = 0;
 var quizQA = [
     ["Q1. Which of the following is true about variable naming conventions in JavaScript?", "JavaScript variable names must begin with a letter or the underscore character.", "JavaScript variable names are case sensitive.", "Both of the above.", "None of the above.", 3],
@@ -11,6 +10,7 @@ var answer = document.getElementsByClassName("answer");
 var quizAns = document.getElementById("quizAnswers");
 var btnNext = document.getElementById("btnNext");
 var btnPrevious = document.getElementById("btnPrevious");
+var progressBar = document.getElementById("progressBar");
 
 btnNext.addEventListener("click", moveNext);
 btnPrevious.addEventListener("click", moveBack);
@@ -20,7 +20,7 @@ for (var i = 0; i < answer.length; i++) {
 }
 
 function myAnswer() {
-    var idAnswer = this.getAttribute("data-id");    
+    var idAnswer = this.getAttribute("data-id");
     document.getElementById("page1").innerHTML = 'Answer ' + idAnswer;
 }
 
@@ -40,6 +40,9 @@ function checkPg(i) {
         //console.log(curNode.childNodes[1].innerHTML);
         curNode.childNodes[1].innerHTML = quizQA[currentPg][(i + 1)];
     }
+    var increment = Math.ceil((currentPg) / (quizQA.length) * 100);
+    progressBar.style.width = (increment) + '%';
+    progressBar.innerHTML = (increment) + '%';
 }
 checkPg();
 

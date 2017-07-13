@@ -1,23 +1,9 @@
-.col-sm-6 {
-    border: 1px solid #dbdbdb;
-    padding: 10px;
-}
-h1, .h1{
-	text-transform: uppercase;
-	color: darkgreen;
-}
-
-.pageMovement {
-    margin: 25px 0 0 0;
-}
-
-.answer {
-    margin: 0 auto;
-    display: block;
-    /*width: 80%;
-    font-weight: bold;*/
-}
-
-.container {
-    padding: 20px;
-}
+.col-sm-6 {border: 1px solid #dbdbdb;padding: 10px;}
+h1, .h1{text-transform: uppercase;color: darkgreen;}
+.pageMovement {margin: 25px 0 0 0;}
+.answer {margin: 0 auto;display: block;}
+.container {padding: 20px;}
+#quizAnswers .btn{white-space: normal!important;}
+.hide{display: none;}
+.show{display: block;}
+.progress{margin: 25px 0 0 0;}
