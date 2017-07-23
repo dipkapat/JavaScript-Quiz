@@ -7,3 +7,4 @@ h1, .h1{text-transform: uppercase;color: darkgreen;}
 .hide{display: none;}
 .show{display: block;}
 .progress{margin: 25px 0 0 0;}
+.selAnswer {background: #d1f4ff;}
